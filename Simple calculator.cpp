@@ -41,11 +41,6 @@ int main() {
         case '*':
             std::cout << num1 << " * " << num2 << " = " << num1 * num2 << std::endl;
             break;
-        
-        
-        default:
-            std::cout << "Error: Invalid operator entered." << std::endl;
-            break;
     }
 
     return 0;

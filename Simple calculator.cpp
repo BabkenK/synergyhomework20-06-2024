@@ -13,7 +13,7 @@ int main() {
         return 0;  
     }
 
-    if (sign != '+' && sign != '-' && sign != '/' && sign != '*' && sign != '%') {
+    if (sign != '+' && sign != '-' && sign != '/' && sign != '*' ) {
         std::cout << "Error: Invalid operator entered." << std::endl;
         return 1; 
     }
